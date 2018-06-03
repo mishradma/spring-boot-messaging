@@ -1,0 +1,11 @@
+spring: 
+  profiles: 
+    active: local
+  application:    
+    name: messaging-rest
+  jpa:
+    properties:
+      hibernate:
+        show_sql: true
+        format_sql: true   
+  
